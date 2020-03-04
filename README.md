@@ -1,20 +1,24 @@
-# Silabus Miniclass Guideline
+# Guideline Silabus Miniclass
 
 ## 1. Struktur Materi
 
 Berikut struktur yang harus ada pada materi silabus
 
-### 1.1. Penjelasan Singkat (What)
+### 1.1. Permasalahan
 
-Berisi penjelasan singkat yang bertujuan agar pembaca mengetahui gambaran umum dari materi yang sedang dibaca
+Sebelum menjelaskan materi, jelaskan permasalahan yang menjadi latar belakang dari materi yang akan dijelaskan. Hal ini dapat membantu pembaca untuk mendapatkan motivasi atau alasan mengapa harus memahami materi yang akan dijelaskan
 
-### 1.2. Alasan (Why)
+### 1.2. Penjelasan Materi Sebagai Solusi
 
-Berisi alasan mengapa materi tersebut dibutuhkan. Hal ini bisa berupa permasalahan yang diselesaikan oleh materi tersebut. Tujuannya agar pembaca lebih memahami materi tersebut.
+Setelah memahami permasalahan yang terjadi, maka pembaca akan mulai ingin tau apa solusi dari permasalahan tersebut. Disini dapat dijelaskan bagaimana materi yang dibawakan dapat menyelesaikan permasalahan tadi
 
-### 1.3. Quick Start (How)
+### 1.3. Penjelasan Detail Materi
 
-Berisi langkah - langkah yang paling sederhana untuk menerapkan materi tersebut. Hindari langkah - langkah yang terlalu kompleks agar pembaca dapat menerapkannya dengan mudah dan cepat
+Pada saat ini, pembaca seharusnya sudah memahami apa dan mengapa materi ini penting untuk dipelajari, sehingga sekarang dapat diberikan penjelasan materi yang lebih detail. Misalnya perintah - perintah dasar yang perlu dipahami pada materi tersebut.
+
+### 1.4. Contoh Kasus
+
+Untuk meningkatkan pemahaman dan skill praktikal pembaca. Dapat diberikan contoh kasus dan langkah - langkah penerapan materi yang dibawakan untuk menyelesaikan contoh kasus tersebut. Berikan contoh kasus yang sederhana agar pembaca dapat menerapkannya dengan mudah dan cepat
 
 ## 2. Format Penulisan
 
@@ -26,12 +30,16 @@ Gunakan format judul dan penomoran seperti berikut untuk menuliskan judul pada m
 
 ```markdown
 # 1. Judul
-## 1.1. Sub Judul 
+
+## 1.1. Sub Judul
+
 ## 1.2. Sub Judul
 
-# 2. Judul 
-## 2.1. Sub Judul 
-## 2.2. Sub Judul 
+# 2. Judul
+
+## 2.1. Sub Judul
+
+## 2.2. Sub Judul
 ```
 
 ### 2.2. Penulisan Perintah Terminal
@@ -41,7 +49,7 @@ Gunakan `block code` untuk menulis perintah pada terminal. Jangan lupa menyertak
 ````markdown
 ```bash
 $ npm install
-``` 
+```
 ````
 
 ### 2.3. Penulisan Source Code
@@ -50,7 +58,7 @@ Gunakan `block code` untuk menulis source code. Jangan lupa sertakan bahasa pemr
 
 ````markdown
 ```javascript
-console.log("hello world")
+console.log('hello world')
 ```
 ````
 
@@ -59,7 +67,6 @@ console.log("hello world")
 Gunakan `code` untuk menulis nama variabel, class, fungsi, dan sebagainya. Tujuannya agar mudah dilihat oleh pembaca
 
 ```markdown
-
 `namaFungsi()`
 
 `namaVariabel`
